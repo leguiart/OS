@@ -1,0 +1,694 @@
+<!DOCTYPE html><!-- HTML 5 -->
+<html lang="en-US" xmlns:fb="http://ogp.me/ns/fb#" xmlns:addthis="http://www.addthis.com/help/api-spec" >
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="author" content="https://plus.google.com/u/0/100983713693782948012">
+	<link rel="pingback" href="http://codigoprogramacion.com/xmlrpc.php" />
+	
+	<title>Codigoprogramacion | un sitio para aprender a programar y tips de tecnologÃ¬a y desarrollo de software</title>
+
+<! GOOGLE ANALYTICS-->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17105984-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<link rel="alternate" type="application/rss+xml" title="Codigoprogramacion &raquo; Feed" href="http://codigoprogramacion.com/feed" />
+<link rel="alternate" type="application/rss+xml" title="Codigoprogramacion &raquo; Comments Feed" href="http://codigoprogramacion.com/comments/feed" />
+<link rel='stylesheet' id='output-css'  href='http://codigoprogramacion.com/wp-content/plugins/addthis/css/output.css?ver=4.1.13' type='text/css' media='all' />
+<link rel='stylesheet' id='zeeSynergie_stylesheet-css'  href='http://codigoprogramacion.com/wp-content/themes/zeesynergie/style.css?ver=4.1.13' type='text/css' media='all' />
+<link rel='stylesheet' id='themezee_default_font-css'  href='http://fonts.googleapis.com/css?family=Paytone+One&#038;ver=4.1.13' type='text/css' media='all' />
+<script type='text/javascript' src='http://codigoprogramacion.com/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://codigoprogramacion.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://codigoprogramacion.com/wp-content/themes/zeesynergie/includes/js/jquery.cycle.all.min.js?ver=4.1.13'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://codigoprogramacion.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://codigoprogramacion.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.1.13" />
+	<link type="text/css" rel="stylesheet" href="http://codigoprogramacion.com/wp-content/plugins/syntax-highlighter-with-add-button-in-editor/styles/shCoreDefault.css" />
+    <script type="text/javascript">
+				//<![CDATA[
+					jQuery(document).ready(function($) {
+						$('#nav ul').css({display: 'none'}); // Opera Fix
+						$('#nav li').hover(function(){
+							$(this).find('ul:first').css({visibility: 'visible',display: 'none'}).show().css({opacity:0}).animate({opacity:1},400);
+						},function(){
+							$(this).find('ul:first').css({visibility: 'hidden'});
+						});
+					});
+				//]]>
+				</script><style type="text/css">
+			a, a:link, a:visited, .comment-reply-link, .post-title, .page-title, .post-title a:link, 
+			.post-title a:visited, .arh, #comments h3, #respond h3, #sidebar a:link, #sidebar a:visited {
+				color: #000;
+			}
+			#header, #footer, #slide_panel, .postcomments, #sidebar .widgettitle {
+				background-color: #000;
+			}
+		</style><style type="text/css">div.inside-ad{
+float:left;
+}
+iframe {background: rgba(255,255,255,1);}
+div.pluginConnectButton
+{margin-top:5px!important;}
+.publicidad
+{text-align:center}
+
+#authorarea{
+background: #f0f0f0;
+border: 1px solid #d2d2d2;
+padding: 10px;
+width:500px;
+overflow:hidden;
+color: #333;
+}
+#authorarea h3{
+font-size: 18px;
+color:#333;
+margin:0;
+padding:10px 10px 5px 10px;
+}
+#authorarea h3 a{
+text-decoration:none;
+color: #333;
+font-weight: bold;
+}
+#authorarea img{
+margin:0;
+padding:10px;
+float:left;
+border: 1px solid #ddd;
+width: 100px;
+height: 100px;
+}
+#authorarea p{
+color:#333;
+margin:0;
+padding:0px 10px 10px 10px;
+}
+#authorarea p a{
+color:#333;
+}
+.authorinfo{
+padding-left:120px;
+}</style><style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+</head>
+
+<body class="home blog custom-background">
+<div id="wrapper">
+
+	<div id="header">
+
+		<div id="head">
+			<div id="logo">
+									<a href="http://codigoprogramacion.com"><img src="http://codigoprogramacion.com/wp-content/uploads/2013/03/blanco-png1-300x100.png" alt="Logo" /></a>
+							</div>
+			<div id="socialmedia_icons">
+				<a href="http://twitter.com/jorge_vgut"><img src="http://codigoprogramacion.com/wp-content/themes/zeesynergie/images/icons/twitter.png" alt="twitter" /></a><a href="http://facebook.com/CodigoProgramacion"><img src="http://codigoprogramacion.com/wp-content/themes/zeesynergie/images/icons/facebook.png" alt="facebook" /></a><a href="https://plus.google.com/u/0/communities/100552090276479228059"><img src="http://codigoprogramacion.com/wp-content/themes/zeesynergie/images/icons/googleplus.png" alt="googleplus" /></a><a href="http://youtube.com/xymind"><img src="http://codigoprogramacion.com/wp-content/themes/zeesynergie/images/icons/youtube.png" alt="youtube" /></a>				<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		
+		<div id="navi_container">
+			<div id="navi">
+				<ul id="nav" class="menu"><li class="page_item page-item-205"><a href="http://codigoprogramacion.com/blog-2">Blog</a></li>
+<li class="page_item page-item-195"><a href="http://codigoprogramacion.com/java">Java</a></li>
+<li class="page_item page-item-190"><a href="http://codigoprogramacion.com/php-y-mysql">PHP y MySQL</a></li>
+<li class="page_item page-item-198"><a href="http://codigoprogramacion.com/android">Android</a></li>
+<li class="page_item page-item-193"><a href="http://codigoprogramacion.com/javascript">Javascript</a></li>
+<li class="page_item page-item-801"><a href="http://codigoprogramacion.com/python">Python</a></li>
+<li class="page_item page-item-906"><a href="http://codigoprogramacion.com/ruby">Ruby</a></li>
+<li class="page_item page-item-200"><a href="http://codigoprogramacion.com/tecnologia-desarrollo-web-hacking-y-novatos">TecnologÃ­a</a></li>
+<li class="page_item page-item-207"><a href="http://codigoprogramacion.com/acerca-de">Acerca de</a></li>
+</ul>			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="container">
+	
+	
+	<div id="wrap">
+		<div id="content">
+		<div class="publicidad">
+		<script type="text/javascript"><!--
+google_ad_client = "ca-pub-9973514910729089";
+/* new CP banner hoz */
+google_ad_slot = "1972223289";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+</div>
+				 
+					<div id="post-1485" class="post-1485 post type-post status-publish format-standard hentry category-articulos category-inicio">
+				
+				<div class="postmeta">	<div class="postmeta_links">
+		<a href="http://codigoprogramacion.com/author/jorge" title="Posts by Jorge V." rel="author">Jorge V.</a> |
+		<a href="http://codigoprogramacion.com/articulos/resena-del-silicon-power-armor-a80.html">July 12, 2014</a>
+			</div>
+	<div class="postcomments">
+		<a href="http://codigoprogramacion.com/articulos/resena-del-silicon-power-armor-a80.html#comments" title="Comment on ReseÃ±a del silicon power Armor A80">One comment</a>	</div>
+	<div class="clear"></div>
+</div>
+
+
+				<h2 class="post-title"><a href="http://codigoprogramacion.com/articulos/resena-del-silicon-power-armor-a80.html" rel="bookmark">ReseÃ±a del silicon power Armor A80</a></h2>
+				
+				<div class="entry">
+										<p>Si eres Geek o aficionado a la tecnologÃ­a como un servidor, probablemente cuentes con diversos gadgets, entre los cuales uno que no te puede faltar es un disco duro externo de alta Â capacidad, eso es precisamente lo que he querido reseÃ±ar el dÃ­a de hoy, Â ya que gracias a nuestros amigos de <a title="Silicon Power" href="http://silicon-power.com" target="_blank">Silicon Power</a>Â pudimos obtener en nuestras manos uno de los discos duros mas resistentes en el mercado para el usuario Geek y tecnolÃ³gicoÂ como tu y como yo.</p>
+<h3>Un poco acerca del A80</h3>
+<p><img class="alignnone" src="http://www.silicon-power.com/images/propics/SP320GBPHDA80S3B.jpg" alt="" width="400" height="400" /></p>
+<p>Como todos los Discos externos modernos, el A80 ya incluye varias funcionalidades como transferencia de datos por medio de USB 3.0, y por ende altas velocidades de transferencias de datos.</p>
+<p>Adicionalmente una de las cosas que hace a este disco duro tan especial es su resistencia. La protecciÃ³n que brinda su carcaza es sin duda resistente, aunque de acuerdo con el fabricante (Silicon Power) puede resistir no solo caÃ­das de 122cm, alta presiÃ³n, y estar bajo el agua por periodos hasta 30 minutos. Debo decir que su resistencia real va mucho mas aya de las que encontramos en las especificaciones del dispositivo. Naturalmente no podrÃ­a recomendar someter el A80 a pruebas mas extremas, despuÃ©s de probar el disco, puedo asegurar, que efectivamente no tendrÃ­amos de que preocuparnos, si el disco sufriese golpes con fuerza superior a las encontradas en las especificaciones tÃ©cnicas. Adicionalmente una caracterÃ­stica poco comÃºn en los discos duros externos, se puede encontrar, y eso es que.. es posible abrir el disco duro solo usando destornilladores. Algo que veremos mas adelante.</p>
+<p>TambiÃ©n se midiÃ³ la velocidad de transferencia de datos un una iMac usando Speed Test, donde se logra apreciar que las velocidades de escritura son de aproximadamente 115mbps y de lectura 185mbps.</p>
+<p>Lo cual considerando que, para un disco duro externo de 7200rpm es algo bastante decente, dado que otros discos duros de velocidad similar podrÃ­an obtener resultados similares o incluso menores en una interfaz SATA directamente en una PC, lo cual habla de que la velocidad soportada en transferencia por medio del USB 3.0 esta muy bien aprovechada.</p>
+<p><a href="http://codigoprogramacion.com/wp-content/uploads/2014/07/Screen-Shot-2014-06-16-at-8.56.55-AM.png"><img class="alignnone wp-image-1488" src="http://codigoprogramacion.com/wp-content/uploads/2014/07/Screen-Shot-2014-06-16-at-8.56.55-AM.png" alt="Speed test A80" width="660" height="615" /></a></p>
+<h3>Un poco mas a fondo.. Â¿Como es por dentro?</h3>
+<p>Naturalmente, soy una persona muy curiosa, y como tal decidÃ­ aventurarme a abrir el A80, dado que como se menciono previamente, este disco cuenta con una caracterÃ­stica la cual es que se puede desarmar. Por ello decidÃ­ realizar un video para demostrarlo, el cual les presento a continuaciÃ³n.</p>
+<p><strong>Aviso: Desarmar el disco duro y especialmente remover ciertos elementos puede anular la garantÃ­a, de hacerlo es bajo su propio riesgo</strong><br />
+<object width="560" height="315"><param name="movie" value="//www.youtube.com/v/xUH9qUHZ8oE?version=3&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/xUH9qUHZ8oE?version=3&amp;hl=en_US" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object></p>
+<h3>ConclusiÃ³n</h3>
+<p>Para finalizar esta reseÃ±a, tras ver no solo la resistencia, pero adicionalmente como es, y tambiÃ©n su rendimiento, debo decir que es un disco duro que sin duda vale la pena. Incluso <strong><em>bajo nuestro propio riesgo</em>Â </strong>podrÃ­amos intercambiar el disco duro y reutilizar la carcaza para proteger cualquier otro disco duro de 2.5 pulgadas que gustemos( ver vÃ­deo).Dicho esto, no me queda mÃ¡s que categorizarlo como un gadget que sin duda vale la pena tener.</p>
+<h6>Â Â¿Donde conseguirlo?</h6>
+<p>Si quieres conseguir este disco duro te recomiendo visitar los siguientes enlaces.</p>
+<p>Amazon: Varios paÃ­ses<br />
+<a href="http://www.amazon.com/Silicon-Power-2-5-Inch-Military-SP010TBPHDA80S3B/dp/B005EWTL7C" target="_blank">http://www.amazon.com/Silicon-Power-2-5-Inch-Military-SP010TBPHDA80S3B/dp/B005EWTL7CÂ </a></p>
+<p>MÃ©xico: a travÃ©s del portal Linio.com<br />
+<a href="http://www.linio.com.mx/Disco-Duro-Portatil-Silicon-Power-Armor-A80-1TB-Azul-271924.html">http://www.linio.com.mx/Disco-Duro-Portatil-Silicon-Power-Armor-A80-1TB-Azul-271924.html</a></p>
+<p>MÃ©xico: a travÃ©s Zegucom.com<br />
+<a href="https://www.zegucom.com.mx/index.php?mod=ficha&amp;upc=886576012834">https://www.zegucom.com.mx/index.php?mod=ficha&amp;upc=886576012834</a></p>
+<div addthis:url='http://codigoprogramacion.com/articulos/resena-del-silicon-power-armor-a80.html' addthis:title='ReseÃ±a del silicon power Armor A80 ' class="addthis_toolbox addthis_default_style">
+<a class="addthis_button_facebook_like"></a>
+     <a class="addthis_button_google_plusone" g:plusone:size="medium"></a> 
+<a class="addthis_button_tweet"></a>
+</div> 					<div class="clear"></div>
+									</div>
+				
+				<div class="postinfo">Category: <a href="http://codigoprogramacion.com/category/articulos" rel="category tag">Articulos</a>, <a href="http://codigoprogramacion.com/category/inicio" rel="category tag">Blog</a> | 
+</div>
+
+			</div>			<div id="post-1482" class="post-1482 post type-post status-publish format-standard hentry category-codigo-fuente">
+				
+				<div class="postmeta">	<div class="postmeta_links">
+		<a href="http://codigoprogramacion.com/author/jorge" title="Posts by Jorge V." rel="author">Jorge V.</a> |
+		<a href="http://codigoprogramacion.com/codigo-fuente/prueba-quicksort-vs-recorrido-bst.html">May 6, 2014</a>
+			</div>
+	<div class="postcomments">
+		<a href="http://codigoprogramacion.com/codigo-fuente/prueba-quicksort-vs-recorrido-bst.html#comments" title="Comment on Prueba quicksort vs Recorrido BST">One comment</a>	</div>
+	<div class="clear"></div>
+</div>
+
+
+				<h2 class="post-title"><a href="http://codigoprogramacion.com/codigo-fuente/prueba-quicksort-vs-recorrido-bst.html" rel="bookmark">Prueba quicksort vs Recorrido BST</a></h2>
+				
+				<div class="entry">
+										<p>Esta es la prueba que estaba realizando para el video tutorial, aqui les dejo el codigo fuente:</p>
+<pre class="brush:python">def qsort(list):
+
+    if list == []:
+        return []
+    else:
+        pivot = list[0]
+        lesser = qsort([x for x in list[1:] if x &lt; pivot])
+        greater = qsort([x for x in list[1:] if x &gt;= pivot])
+        return lesser + [pivot] + greater
+
+class Nodo(object):
+
+    def __init__(self,value):
+        self.k = value
+        self.izq = None
+        self.der = None
+        self.root = None
+
+class BST(object):
+
+    def __init__(self):
+        self.root = None
+
+    def insert(self,valor):
+
+        nodo = Nodo(valor)
+
+        if self.root is None:
+
+            self.root = nodo
+
+        else:
+
+            temp = self.root
+
+            while temp is not None:
+
+                nodo.root = temp.root
+
+                if(nodo.k &gt;= temp.k):
+                    if temp.der is None:
+                        temp.der = nodo
+                        break
+                    else:
+                        temp = temp.der
+                else:
+                    if temp.izq is None:
+                        temp.izq = nodo
+                        break
+                    else:
+                        temp = temp.izq
+
+    def itw(self,nodo):
+        if nodo is not None:
+            self.itw(nodo.izq)
+            print nodo.k
+            self.itw(nodo.der)
+
+import sys
+import time
+
+N = int(sys.argv[1])
+numeros = []
+bst = BST()
+
+for i in xrange(N):
+    #metodo 1, lista y usar quicksort nativo
+    numero = long(raw_input())
+    numeros += [numero]
+    bst.insert(numero)
+
+start = time.time() #(datetime.datetime.now().time())
+numeros.sort()
+#numeros = qsort(numeros)
+#for el in numeros:
+#  print el
+print numeros
+#bst.itw(bst.root)
+
+end = time.time()#(datetime.datetime.now().time())
+
+print "Time elapsed on sorting:",(end - start)</pre>
+<p>&nbsp;</p>
+<div addthis:url='http://codigoprogramacion.com/codigo-fuente/prueba-quicksort-vs-recorrido-bst.html' addthis:title='Prueba quicksort vs Recorrido BST ' class="addthis_toolbox addthis_default_style">
+<a class="addthis_button_facebook_like"></a>
+     <a class="addthis_button_google_plusone" g:plusone:size="medium"></a> 
+<a class="addthis_button_tweet"></a>
+</div> 					<div class="clear"></div>
+									</div>
+				
+				<div class="postinfo">Category: <a href="http://codigoprogramacion.com/category/codigo-fuente" rel="category tag">Codigo Fuente</a> | 
+</div>
+
+			</div>			<div id="post-1477" class="post-1477 post type-post status-publish format-standard hentry category-articulos category-inicio">
+				
+				<div class="postmeta">	<div class="postmeta_links">
+		<a href="http://codigoprogramacion.com/author/jorge" title="Posts by Jorge V." rel="author">Jorge V.</a> |
+		<a href="http://codigoprogramacion.com/articulos/resena-usb-3-0-silicon-power-marvel-m60.html">March 28, 2014</a>
+			</div>
+	<div class="postcomments">
+		<a href="http://codigoprogramacion.com/articulos/resena-usb-3-0-silicon-power-marvel-m60.html#comments" title="Comment on ReseÃ±a USB 3.0 Silicon Power Marvel M60">2 comments</a>	</div>
+	<div class="clear"></div>
+</div>
+
+
+				<h2 class="post-title"><a href="http://codigoprogramacion.com/articulos/resena-usb-3-0-silicon-power-marvel-m60.html" rel="bookmark">ReseÃ±a USB 3.0 Silicon Power Marvel M60</a></h2>
+				
+				<div class="entry">
+										<p>El dÃ­a de hoy querÃ­a realizar una reseÃ±a del dispositivo usb de Silicon Power, el Marvel M60.</p>
+<p><img class="alignleft" alt="" src="http://limcorp.net/images/2011/silicon-power-marvel-m60-drive/marvel-m60-drive.jpg" width="500" height="305" />Â Ya todos muy probablemente conocemos que son las usb y para sirven, asÃ­ que me ahorrare esta parte y me irÃ© directo a compartirles las pruebas que hice con la Marvel M60.</p>
+<h3>Prueba de rendimiento con SpeedTest</h3>
+<p>La primera prueba fue ver que tan rapidas son las velocidades de escritura y lectura, por lo que utilizando SpeedTest, se midieron las velocidades que llegan a superar los 70mbps en escritura y mas de 180mpbs en velocidades de lectura.</p>
+<p><a href="http://codigoprogramacion.com/wp-content/uploads/2014/03/Screen-Shot-2014-03-21-at-9.21.53-AM.png"><img class="alignnone size-medium wp-image-1478" alt="Screen Shot 2014-03-21 at 9.21.53 AM" src="http://codigoprogramacion.com/wp-content/uploads/2014/03/Screen-Shot-2014-03-21-at-9.21.53-AM-300x294.png" width="300" height="294" /></a></p>
+<p>&nbsp;</p>
+<p>Como podemos apreciar para ser un dispositivo USB las velocidades son sorprendentes. Las velocidades son comparables a disco duro tradicional de 5400rpm en cuanto a velocidades de escritura, y supera en velocidad de lectura a discos de 7200rpm, lo que permite que este usb pueda ser utilizado como Live Usb para bootear sistemas operativos como Linux.</p>
+<h3>Â Prueba, crear usb Linux Live con M60 e iniciar Ubuntu linux.</h3>
+<p>Como prueba de fuego nada mejor que instalar el conocido sistema operativo Ubuntu en el Marvel M60 y probarlo en un puerto USB 3.0 de una iMac.</p>
+<p>Aunque el proceso de bootear desde le usb fue largo debido al inicio natural de Mac, una vez entramos a cargar Ubuntu todo avanza agilmente.</p>
+<p>A continuaciÃ³n una prueba en video:</p>
+<p><object width="560" height="315" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="//www.youtube.com/v/9sh78s8L4MY?version=3&amp;hl=es_ES" /><param name="allowfullscreen" value="true" /><embed width="560" height="315" type="application/x-shockwave-flash" src="//www.youtube.com/v/9sh78s8L4MY?version=3&amp;hl=es_ES" allowFullScreen="true" allowscriptaccess="always" allowfullscreen="true" /></object></p>
+<h3>Â¿Donde conseguirlo en MÃ©xico?</h3>
+<p>Actualmente Silicon Power es una empresa con mayor presencia en el mercado Norte Americano, Europeo y Asiatico, aun asÃ­ esta entrando a Latino America para hacernos llegar estos productos. AquÃ­ les dejo algunos enlaces de lugares donde pueden conseguir USB 3.0 de Silicon Power.</p>
+<p>Zegucom.mx (este se orienta un poco mas a mayoristas, pero esta abierto a todos y cuenta con tienda en lÃ­nea)<a dir="ltr" title="https://www.zegucom.com.mx" href="https://www.zegucom.com.mx/" target="_blank" rel="nofollow">https://www.zegucom.com.mx</a></p>
+<p>All Memory (distribuyen una buena variedad de USB, 3.0)<a dir="ltr" title="http://www.allmemory.com.mx/index.php/sucursales" href="http://www.allmemory.com.mx/index.php/sucursales" target="_blank" rel="nofollow">http://www.allmemory.com.mx/index.php&#8230;</a><br />
+DICO Tech<br />
+Plaza de la tecnologÃ­a (casi todas las sucursales nacionales, mas en DF y GDL)<br />
+Plaza DF y de la computaciÃ³n (distrito Federal)<br />
+Farmacias Guadalajara<br />
+Office Depot (*algunas sucursales)</p>
+<p>Adicionalmente les dejo las redes sociales de Silicon Power para que puedan visitarlos y estar al tanto de sus productos en latino amÃ©rica.</p>
+<p>Donde encontrar a silicon power?<br />
+<a dir="ltr" title="https://www.facebook.com/SiliconPowerLatinoAmerica" href="https://www.facebook.com/SiliconPowerLatinoAmerica" target="_blank" rel="nofollow">https://www.facebook.com/SiliconPower&#8230;</a><br />
+<a dir="ltr" title="http://www.silicon-power.com/index.php?sc=b&amp;W=1280" href="http://www.silicon-power.com/index.php?sc=b&amp;W=1280" target="_blank" rel="nofollow">http://www.silicon-power.com/index.ph&#8230;</a><span style="font-family: Arial; font-size: small;"><a href="https://www.facebook.com/SiliconPowerLatinoAmerica" target="_blank">Â </a></span></p>
+<div addthis:url='http://codigoprogramacion.com/articulos/resena-usb-3-0-silicon-power-marvel-m60.html' addthis:title='ReseÃ±a USB 3.0 Silicon Power Marvel M60 ' class="addthis_toolbox addthis_default_style">
+<a class="addthis_button_facebook_like"></a>
+     <a class="addthis_button_google_plusone" g:plusone:size="medium"></a> 
+<a class="addthis_button_tweet"></a>
+</div> 					<div class="clear"></div>
+									</div>
+				
+				<div class="postinfo">Category: <a href="http://codigoprogramacion.com/category/articulos" rel="category tag">Articulos</a>, <a href="http://codigoprogramacion.com/category/inicio" rel="category tag">Blog</a> | 
+</div>
+
+			</div>			<div id="post-1468" class="post-1468 post type-post status-publish format-standard hentry category-html tag-css tag-css3 tag-html-2 tag-html5 tag-menu tag-menu-horizontal tag-tutorial">
+				
+				<div class="postmeta">	<div class="postmeta_links">
+		<a href="http://codigoprogramacion.com/author/jorge" title="Posts by Jorge V." rel="author">Jorge V.</a> |
+		<a href="http://codigoprogramacion.com/cursos/html/como-hacer-un-menu-horizontal-con-html5-y-css3.html">October 14, 2013</a>
+			</div>
+	<div class="postcomments">
+		<a href="http://codigoprogramacion.com/cursos/html/como-hacer-un-menu-horizontal-con-html5-y-css3.html#comments" title="Comment on Como hacer un menu horizontal con html5 y css3">11 comments</a>	</div>
+	<div class="clear"></div>
+</div>
+
+
+				<h2 class="post-title"><a href="http://codigoprogramacion.com/cursos/html/como-hacer-un-menu-horizontal-con-html5-y-css3.html" rel="bookmark">Como hacer un menu horizontal con html5 y css3</a></h2>
+				
+				<div class="entry">
+										<p>En esta practica les traigo como hacer un menu horizontal utilizando html5 y css3 naturalmente, a continuaciÃ³n el video tutorial Â y posteriormente el codigo de la practica para que puedan replicarlo en sus casas.</p>
+<h3>Video tutorial</h3>
+<p><object width="480" height="360" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="//www.youtube.com/v/97SGiyTSAaQ?hl=es_ES&amp;version=3" /><param name="allowfullscreen" value="true" /><embed width="480" height="360" type="application/x-shockwave-flash" src="//www.youtube.com/v/97SGiyTSAaQ?hl=es_ES&amp;version=3" allowFullScreen="true" allowscriptaccess="always" allowfullscreen="true" /></object></p>
+<h3>Codigo CSS</h3>
+<pre class="brush:css">/*Body*/
+body
+{
+	margin:0px;
+	padding-top:5px;
+}
+
+#main_container
+{
+	width:90%;
+	margin-left:5%;
+	padding-top:5px;
+	padding-bottom:5px;
+	float:left;
+	border: 3px outset;
+}
+
+/*Content*/
+
+.content{
+	width:90%;
+	margin-top:5px;
+	margin-left:5%;
+	padding-bottom:50px;
+	background:#ffffff;
+	border: 1px dashed;
+	height: auto;
+	float:left;
+}
+
+.content article
+{
+	padding: 3%;
+
+}
+
+.content article h2
+{
+
+}
+
+/*Header*/
+
+.header
+{
+	width:90%;
+	margin-top:5px;
+	margin-left:5%;
+	background:#ffffff;
+	border: 3px outset;
+	height: 200px;
+	float:left;
+}
+
+/*Menu */
+.top_menu ul
+{
+	list-style:none;
+	float:left;
+	border: 1px dashed;
+	padding: 2%;
+	width:95%;
+}
+
+.top_menu ul li
+{
+	float:left;
+	margin-right:20px;
+	margin-bottom:10px;
+	background: #ff812d;
+	padding:5px;
+	border-radius: 15%;
+}
+.top_menu ul li a
+{
+	color: #FFFFFF;
+	text-decoration:none;
+}
+.top_menu ul li a:hover
+{
+	color: blue;
+}
+
+/*Footer*/
+.footer
+{
+	width:90%;
+	margin-top:5px;
+	margin-left:5%;
+	background:#ffffff;
+	border: 3px outset;
+	height: 110px;
+	float:left;
+}
+
+.footer_msg
+{
+	margin-top: 40px;
+float: left;
+margin-left: 5%;
+font-size: 0.8em;
+color: rgb(126, 126, 126);
+}</pre>
+<h3>Â Codigo html:</h3>
+<pre class="brush:php">&lt;!DOCTYPE  html&gt;
+&lt;html&gt;
+&lt;head&gt;
+	&lt;meta charset="UTF-8"&gt;
+	&lt;title&gt;Codigoprogramacion.com&lt;/title&gt;
+	&lt;link rel="stylesheet" type="text/css" href="style.css" /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;section id="main_container"&gt;
+		&lt;header class="header"&gt;
+			&lt;h1&gt;Tutoriales - Html/Css&lt;/h1&gt;
+			&lt;nav class="top_menu"&gt;
+				&lt;ul&gt;
+					&lt;li&gt;&lt;a href="#"&gt;Item 1&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="#"&gt;Item 2&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="#"&gt;Item 3&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="#"&gt;Item 1&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="#"&gt;Item 2&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="#"&gt;Item 3&lt;/a&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/nav&gt;
+		&lt;/header&gt;
+
+		&lt;section class="content"&gt;
+			&lt;article&gt;
+				&lt;h2&gt;Lorem Ipsum&lt;/h2&gt;
+				&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet scelerisque arcu, vitae mattis turpis.
+				 Cras dictum nisl non vulputate mollis. Vestibulum in elit vel sapien venenatis aliquam tincidunt nec arcu. 
+				Pellentesque non consequat felis, ac accumsan tellus. Donec sem magna, sagittis nec erat fringilla, commodo aliquet massa.
+				Mauris risus lectus, ornare vel venenatis a, rutrum at augue. Nam eget turpis at metus commodo dignissim sit amet id lectus. 
+				Aliquam consectetur sem eget sem vehicula, nec laoreet felis pellentesque. Vivamus turpis ipsum, rutrum facilisis est semper,
+				egestas congue nibh. Maecenas sodales leo sed quam lacinia luctus. Aliquam scelerisque rutrum nisi, ut tincidunt lorem pharetra in.
+				 Curabitur malesuada dolor ac accumsan ornare. Curabitur pellentesque gravida ipsum, at elementum tortor convallis nec. Aenean
+				  condimentum, nunc ac tincidunt tristique, odio ante euismod ligula, et ullamcorper mauris nisi ut ligula. Vivamus faucibus mattis
+				   turpis ac aliquet. Nam elementum velit ut lectus vestibulum, eu pretium turpis vehicula.
+				&lt;/p&gt;
+			&lt;/article&gt;
+		&lt;/section&gt;
+		&lt;footer class="footer"&gt;
+			&lt;span class="footer_msg"&gt; Este es el pie de pÃ¡gina - codigoprogramacion.com&lt;/span&gt;
+		&lt;/footer&gt;
+	&lt;/section&gt;
+&lt;/body&gt;	
+&lt;/html&gt;</pre>
+<p>&nbsp;</p>
+<div addthis:url='http://codigoprogramacion.com/cursos/html/como-hacer-un-menu-horizontal-con-html5-y-css3.html' addthis:title='Como hacer un menu horizontal con html5 y css3 ' class="addthis_toolbox addthis_default_style">
+<a class="addthis_button_facebook_like"></a>
+     <a class="addthis_button_google_plusone" g:plusone:size="medium"></a> 
+<a class="addthis_button_tweet"></a>
+</div> 					<div class="clear"></div>
+									</div>
+				
+				<div class="postinfo">Category: <a href="http://codigoprogramacion.com/category/cursos/html" rel="category tag">HTML</a> | 
+Tags: <a href="http://codigoprogramacion.com/tag/css" rel="tag">css</a>, <a href="http://codigoprogramacion.com/tag/css3" rel="tag">css3</a>, <a href="http://codigoprogramacion.com/tag/html-2" rel="tag">html</a>, <a href="http://codigoprogramacion.com/tag/html5" rel="tag">html5</a>, <a href="http://codigoprogramacion.com/tag/menu" rel="tag">menu</a>, <a href="http://codigoprogramacion.com/tag/menu-horizontal" rel="tag">menu horizontal</a>, <a href="http://codigoprogramacion.com/tag/tutorial" rel="tag">tutorial</a></div>
+
+			</div>			
+							<div class="more_posts">
+					<span class="post_links"><a href="http://codigoprogramacion.com/page/2" >&laquo; Older Entries</a> &nbsp; </span>
+				</div>
+			
+					
+		</div>
+		
+		
+<div id="sidebar">
+	<ul>
+
+<li id="search-2" class="widget widget_search"><form role="search" method="get" id="searchform" class="searchform" action="http://codigoprogramacion.com/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" />
+				</div>
+			</form></li>
+<li id="youtube" class="widget widget_youtube_subscribe"><h3 class='widget-title'><a href='http://www.youtube.com/user/beta13net' target='_blank'>Nuevo vlog de comedia en youtube!  - No te lo puedes perder!</a></h3><iframe src='http://www.youtube.com/subscribe_widget?p=beta13net' style='border: 1px solid red; overflow: hidden; height: 125px; width: 180px; border: none;' scrolling='no' frameborder='0'></iframe></li>
+<li id="text-3" class="widget widget_text"><h2 class="widgettitle">Patrocinados</h2>
+			<div class="textwidget"><div class="publicidad"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-9973514910729089";
+/* caja 300x250 mediana */
+google_ad_slot = "7646130484";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+
+<!--<a href="http://www.payloadz.com/go/sip?id=2110911&aff_id=3416029"><img src="http://codigoprogramacion.com/wp-content/uploads/2013/04/CodigoFacilito_300x250_AD.png"/></a>-->
+<a href="http://bit.ly/188HeIZ" alt="bitfeed.mx"><img src="http://codigoprogramacion.com/wp-content/uploads/2013/08/Bitfeed-banner.png"/></a></div>
+		</li>
+<li id="text-2" class="widget widget_text"><h2 class="widgettitle">Autores:</h2>
+			<div class="textwidget"><ul>
+<li><a href="http://codigoprogramacion.com/author/jorge">Jorge Villalobos:</a>  <a href="https://twitter.com/jorge_vgut" class="twitter-follow-button" data-show-count="false" data-lang="es">Seguir a @jorge_vgut</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</li>
+<li><a href="http://codigoprogramacion.com/author/uriel">Uriel Hernandez:</a>  <a href="https://twitter.com/Uriel_Hedz" class="twitter-follow-button" data-show-count="false" data-lang="es">Seguir a @Uriel_Hedz</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</li>
+</ul></div>
+		</li>
+		<li id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widgettitle">Entradas recientes</h2>
+		<ul>
+					<li>
+				<a href="http://codigoprogramacion.com/articulos/resena-del-silicon-power-armor-a80.html">ReseÃ±a del silicon power Armor A80</a>
+						</li>
+					<li>
+				<a href="http://codigoprogramacion.com/codigo-fuente/prueba-quicksort-vs-recorrido-bst.html">Prueba quicksort vs Recorrido BST</a>
+						</li>
+					<li>
+				<a href="http://codigoprogramacion.com/articulos/resena-usb-3-0-silicon-power-marvel-m60.html">ReseÃ±a USB 3.0 Silicon Power Marvel M60</a>
+						</li>
+					<li>
+				<a href="http://codigoprogramacion.com/cursos/html/como-hacer-un-menu-horizontal-con-html5-y-css3.html">Como hacer un menu horizontal con html5 y css3</a>
+						</li>
+					<li>
+				<a href="http://codigoprogramacion.com/cursos/javascript/introduccion-a-json-sintaxis-y-ejemplos.html">IntroducciÃ³n a JSON, sintaxis y ejemplos</a>
+						</li>
+				</ul>
+		</li>
+<li id="text-4" class="widget widget_text"><h2 class="widgettitle">Â¡Anunciate en Codigoprogramacion.com!</h2>
+			<div class="textwidget">Con el fin de continuar este proyecto y brindar la oportunidad a anunciantes, hemos decidido ofrecer la posibilidad de anunciarse con banners en codigoprogramacion.com
+
+Contamos con mas de 3000 impresiones de pÃ¡ginas al dÃ­a y mas de 2000 visitantes Ãºnicos diarios.
+Para mas informaciÃ³n contactar a webmaster@codigoprogramacion.com con el asunto "Contacto Anunciante" por correo.</div>
+		</li>
+<li id="theme_socialmedia-2" class="widget theme_socialmedia"><h2 class="widgettitle">Nuestras redes sociales</h2>
+			<div class="widget-social-icons">
+				
+			<a href="http://twitter.com/jorge_vgut"><img src="http://codigoprogramacion.com/wp-content/themes/zeesynergie/images/icons/twitter.png" alt="twitter" /></a><a href="http://facebook.com/CodigoProgramacion"><img src="http://codigoprogramacion.com/wp-content/themes/zeesynergie/images/icons/facebook.png" alt="facebook" /></a><a href="https://plus.google.com/u/0/communities/100552090276479228059"><img src="http://codigoprogramacion.com/wp-content/themes/zeesynergie/images/icons/googleplus.png" alt="googleplus" /></a><a href="http://youtube.com/xymind"><img src="http://codigoprogramacion.com/wp-content/themes/zeesynergie/images/icons/youtube.png" alt="youtube" /></a>			</div>
+		</li>
+<li id="text-5" class="widget widget_text"><h2 class="widgettitle">Orgullosamente hospedado por</h2>
+			<div class="textwidget"><div style="width:100%;text-align:center;">
+<a href="http://www.site5.com/in.php?id=88144-50"><img alt="125x125-495" border="0" src="http://www.site5.com/creative/2008/4/125x125-495.gif" /></a>
+</div></div>
+		</li>
+	
+	</ul>
+</div>	</div>
+	
+	</div>
+	<div id="footer">
+		<div id="foot">
+			codigoprogramacion.com -2013  - <a href="mailto:dev.javg@gmail.com">Contacto (solo freelance,anunciantes/publicidad, propuestas o trabajo)</a>			<div class="credit_link">	<a href="http://themezee.com/">Theme by ThemeZee</a>
+</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>
+	    <script type="text/javascript" src="http://codigoprogramacion.com/wp-content/plugins/syntax-highlighter-with-add-button-in-editor/scripts/shCore.js"></script>
+    <script type="text/javascript" src="http://codigoprogramacion.com/wp-content/plugins/syntax-highlighter-with-add-button-in-editor/scripts/shAutoloader.js"></script>
+    <script type="text/javascript">
+    function path()
+    {
+      var args = arguments,
+          result = []
+          ;
+      for(var i = 0; i < args.length; i++)
+          result.push(args[i].replace('@', 'http://codigoprogramacion.com/wp-content/plugins/syntax-highlighter-with-add-button-in-editor/scripts/'));
+      return result
+    };
+    SyntaxHighlighter.autoloader.apply(null, path(
+      'applescript            @shBrushAppleScript.js',
+      'actionscript3 as3      @shBrushAS3.js',
+      'bash shell             @shBrushBash.js',
+      'coldfusion cf          @shBrushColdFusion.js',
+      'cpp c                  @shBrushCpp.js',
+      'c# c-sharp csharp      @shBrushCSharp.js',
+      'css                    @shBrushCss.js',
+      'delphi pascal          @shBrushDelphi.js',
+      'diff patch pas         @shBrushDiff.js',
+      'erl erlang             @shBrushErlang.js',
+      'groovy                 @shBrushGroovy.js',
+      'java                   @shBrushJava.js',
+      'jfx javafx             @shBrushJavaFX.js',
+      'js jscript javascript  @shBrushJScript.js',
+      'perl pl                @shBrushPerl.js',
+      'php                    @shBrushPhp.js',
+      'text plain             @shBrushPlain.js',
+      'ps                     @shBrushPowerShell.js',
+      'py python              @shBrushPython.js',
+      'ruby rails ror rb      @shBrushRuby.js',
+      'sass scss              @shBrushSass.js',
+      'scala                  @shBrushScala.js',
+      'sql                    @shBrushSql.js',
+      'vb vbnet               @shBrushVb.js',
+      'xml xhtml xslt html    @shBrushXml.js',
+      'other                  @shBrushOther.js'
+    ));
+    SyntaxHighlighter.defaults['auto-links'] = true;
+    SyntaxHighlighter.defaults['collapse'] = false;
+    SyntaxHighlighter.defaults['first-line'] = 1;
+    SyntaxHighlighter.defaults['gutter'] = true;
+    SyntaxHighlighter.defaults['smart-tabs'] = true;
+    SyntaxHighlighter.defaults['tab-size'] = 4;
+    SyntaxHighlighter.defaults['toolbar'] = true;
+    SyntaxHighlighter.config.tagName = "pre";
+	SyntaxHighlighter.config.clipboardSwf = 'http://codigoprogramacion.com/wp-content/plugins/syntax-highlighter-with-add-button-in-editor/scripts/clipboard.swf';
+    SyntaxHighlighter.all();
+    </script>
+    <script type="text/javascript">
+
+var addthis_config = {"data_track_clickback":true,"data_track_addressbar":true,"data_track_textcopy":true,"ui_atversion":"300","ui_508_compliant":true};
+var addthis_product = 'wpp-4.0.7';
+</script><script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-513ba2962dc46d27"></script><!--wp_footer--></body>
+</html>
+ The size of the web page is 38532 bytes.

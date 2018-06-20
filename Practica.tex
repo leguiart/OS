@@ -1,0 +1,466 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This is a simple template for a LaTeX document using the "article" class.
+% See "book", "report", "letter" for other types of document.
+
+\documentclass[12pt]{article} % use larger type; default would be 10pt
+
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+
+%%% Examples of Article customizations
+% These packages are optional, depending whether you want the features they provide.
+% See the LaTeX Companion or other references for full information.
+
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+% \geometry{margin=2in} % for example, change the margins to 2 inches all round
+% \geometry{landscape} % set up the page for landscape
+%   read geometry.pdf for detailed page layout information
+
+\usepackage{graphicx} % support the \includegraphics command and options
+\usepackage[export]{adjustbox}
+\graphicspath{{eguiartepract/}}
+
+% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+
+%%% PACKAGES
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+\usepackage{listings}
+
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+%%% END Article customizations
+
+%%% The "real" document content comes below...
+
+\title{Práctica 1}
+\author{Bigurra Cervantes Carlos Eolo \\ 
+	\and Eguiarte Morett Luis Andrés \\ 
+	\and López López Miguel Ángel  \\ 
+	\and Ponce Peral Leonardo \\ 
+	 Velázquez Albañil Irving G.}
+%\date{} % Activate to display a given date or no date (if empty),
+         % otherwise the current date is printed 
+
+\begin{document}
+\maketitle
+
+\section{Señales en Linux y Windows}
+
+1.- Señales en Linux y Windows
+a) Utilice el comando kill para listar las señales utilizadas en el sistema operativo Linux, describa brevemente las más utilizadas.
+El comando kill se utiliza para matar procesos a través de su PID y estos son sus variantes: 
+killall: matar un proceso usando su nombre
+Un dato a tener en cuenta al usar este método es que en caso de que haya más de una instancia de ese programa ejecutándose, se cerrarán todas.
+pkill: matar un proceso usando parte de su nombre
+Es posible aniquilar un proceso especificando el nombre completo o parte del nombre. Eso significa que no hay necesidad de que recuerdes el PID del proceso para enviar la señal.
+Como contrapartida, este método aniquilará todos los procesos que contengan la palabra ingresada. Eso significa que si tenemos abiertos 2 procesos que comparten una palabra en el nombre, se cerrarán ambos.
+xkill: matar un proceso seleccionando la ventana con el mouse
+Este es el método más sencillo y el más práctico. En caso de desastre, simplemente presioná Alt + F2 para que se abra el cuadro de diálogo que te permitirá ejecutar comandos. Desde allí, ejecutá el siguiente comando:
+xkill
+El cursor del mouse se transformará en una pequeña calavera. Todo lo que resta es hacer clic en la ventana que querés cerrar y voilá. Chau proceso.
+
+b) Explique cómo manejan las señales los sistemas operativos Linux y Windows.
+Las señales de linux no son más que unos mecanismos que permiten informar a los procesos de eventos que han sido provocados, por ellos mismos o por otros procesos. Es comparable con la gestión de interrupciones lógicas. Cuando le llega una señal a un proceso el sistema interrumpe la ejecución normal del proceso (o de cualquier función o llamada que este hubiera realizado) para ejecutar la función de desviación.
+Las señales se representan mediante unas constantes definidas en el archivo de cabecera <signal.h> y tienen el formato siguiente: SIGXXX.
+Las señales se pueden generar de varias maneras:
+
+-  Excepción hardware
+
+-  Llamada al sistema kill
+
+-  Evento gestionado por el núcleo (alarmas)
+
+- Interacción del usuario y el terminal (Ctrl-z)
+
+La acción predeterminada asociada a una señal (normalmente terminar el proceso) puede ser modificada por el proceso receptor, que usa entonces la función de desviación indicada cuando le llega la señal (sólo por esa vez, la siguiente vez que venga la misma señal, la acción que se ejecutará será la definida por defecto).
+
+- Las estructuras relacionadas con las señales son:
+
+ Taskstruct: la estructura de procesos en cuatro campos.
+
+-Signalstruct: la estructura de las señales en sí.
+
+ -Ksigaction: la estructura en la que se define el manejador de cada señal.
+
+-Signalqueue: una lista de señales.
+
+- itimerval: estructura de las alarmas.
+
+
+Y las funciones que modifican estas estructuras son:
+
+
+
+System V	4.3 BSD	POSIX
+
+Signal()	Signal()	Signal()
+
+Kill()	Kill()	Kill()
+
+pause	Sigpause()	Sigsuspend()
+
+----	SigVector()
+
+o
+Sigvec()	Sigaction()
+
+----	Sigblock	Sigprocmask()
+
+-----	Sigsetmask()	Sigprocmask()
+
+------	Sigstask()	-----
+
+
+\subsection{Programa 1.}
+a) Mediante una captura de pantalla muestre los PID de los procesos.
+
+\includegraphics[max size={\textwidth}{\textheight}]{prog1}
+
+b) ¿Cuáles son los valores de las variables g y l del proceso padre y del proceso hijo, respectivamente?
+
+Parent process g=2, l=3
+Child process g=200, l=900
+
+
+c) Muestre la salida de las sentencias A y B.
+
+ ....Who is my parent ?? (2551): My parent process id is: 2786  //Sentencia B
+ ....Who Am I ?? (2787): g=3, l=4  //sentencia A
+
+
+\subsection{Programa 2.(Java)}
+
+a) Mediante una captura de pantalla muestre la salida del programa.
+
+\includegraphics[max size={\textwidth}{\textheight}]{prog2}
+
+\subsection{Programa 3. Threads en Windows}
+a) Mediante una captura de pantalla muestre la salida del programa.
+
+Ingresamos el número de hilos que queremos crear.
+
+\includegraphics[max size={\textwidth}{\textheight}]{prog3}
+\includegraphics[max size={\textwidth}{\textheight}]{p3}
+
+
+\section{Programa con fork()}
+
+\begin{lstlisting}
+
+
+#include <math.h>
+#include <stdio.h>
+#include <unistd.h>
+using namespace std;
+//Funcion para calcular la serie de fibonacci
+int fibonacci(int n) 
+{
+    if (n<2)
+        return n;
+    else
+        return fibonacci(n-1) + fibonacci(n-2);
+}
+
+//Padre con 3 hijos
+main()
+{
+ pid_t pid;//Process ID
+ int i;
+ 
+ for(i=1;i<=3;i++)//Ciclo for para crear 3 hijos
+{
+  
+  pid=fork(); 
+  if(pid)
+  {
+   printf("Soy el proceso padre\n");
+//Codigo para el padre
+   sleep(2);
+  }
+
+  else 
+  {
+   printf("Soy el proceso hijo PID: %d\n",getpid());
+//Codigo para los hijos
+   int resultado=0;
+    printf("Serie de Fibonacci\n");
+    for(int j=0;j<100-1;j++)
+    {
+     resultado = fibonacci(j); //Llamado de la funcion fibonacci definida
+     printf("%d\n",resultado);
+    }
+    printf("Calculo de raiz cuadrada\n");//Calculo de las raices cuadradas
+    for(double k=0;k<100;k++)
+    {
+    k = sqrt(k);
+    printf("%lf\n",k);
+    }
+    printf("Suma de los valores\n"); //Suma de los valores recibidos
+    int m;
+    int suma=0, arr[100];
+    suma = arr[m] + suma; 
+    printf("%d", suma);
+  }
+   sleep(2);
+}
+  return 0;
+ }
+\end{lstlisting}
+
+\includegraphics[max size={\textwidth}{\textheight}]{1-2}
+\includegraphics[max size={\textwidth}{\textheight}]{2-2}
+\includegraphics[max size={\textwidth}{\textheight}]{3-2}
+\includegraphics[max size={\textwidth}{\textheight}]{4-2}
+\includegraphics[max size={\textwidth}{\textheight}]{5-2}
+\includegraphics[max size={\textwidth}{\textheight}]{6-2}
+
+El programa anterior utiliza la llamada al sistema fork() para generar 3 procesos hijos identificados con un Identificador único  a partir de un un solo proceso padre. Cada proceso hijo recibe valores del 0 al 99 con los cuales se realizan tres operaciones diferentes: se obtiene la serie de Fibonacci, se calcula la raíz cuadrada de cada número y de calcula la suma de todos los elementos.
+El programa utiliza un ciclo for para generar 3 procesos hijos y cada hijo comienza a ejecutar su tarea identificándose como hijo con su respectivo número e identificador de proceso. Se obtiene la serie de Fibonacci a partir de un algoritmo que obtiene un número a partir de la suma de los dos números anteriores comenzando por el cero y el uno.
+Para calcular la raíz cuadrada de cada elemento se utiliza un ciclo for para dirigir cada elemento a la operación y finalmente se utiliza el arreglo de valores para obtener la suma de todos los números contenidos.
+
+
+\section{Programa con pthread}
+
+\begin{lstlisting}
+
+include <stdio.h>
+#include <pthread.h>    //biblioteca necesario para el manejo de hilos //
+
+void *saludo(void *);
+
+int main(){
+	pthread_t hilo[10],ID[10];										
+	int i;												
+	for(i=0;i<10;i++)
+	pthread_create(&hilo[i],NULL,&saludo,&hilo[i]);	 //se realiza la creacion de los hilos					
+	pthread_join(hilo[0],&ID[0]);								
+	pthread_join(hilo[1],&ID[1]);	//esperan la terminacion del hilo anterior en cada uno de ellos, en este caso// 				
+	pthread_join(hilo[2],&ID[2]);		//son 10 hilos los que se realizaron//						
+	pthread_join(hilo[3],&ID[3]);					
+	pthread_join(hilo[4],&ID[4]);		//Acompanados su identificador que sera asignado//				
+	pthread_join(hilo[5],&ID[5]);					
+	pthread_join(hilo[6],&ID[6]);								
+	pthread_join(hilo[7],&ID[7]);					
+	pthread_join(hilo[8],&ID[8]);								
+	pthread_join(hilo[9],&ID[9]);
+	
+	for(i=0;i<10;i++)
+		printf("\nHilo[%d] con identificador [%d]",i,ID[i]);
+	printf("\n");
+}
+
+void *saludo(void *entrada){
+	int ID,i;
+	ID = *(int *)entrada;
+	for(i=0;i<5;i++) //se hace el ciclo para que cada hilo realice las 5 veces el hola mundo//
+		printf("Hola mundo (Hilo %d)\n",ID);
+	pthread_exit(ID);	//termina la ejecucion del hilo//								
+}
+
+
+\end{lstlisting}
+
+\includegraphics[max size={\textwidth}{\textheight}]{1-3}
+\includegraphics[max size={\textwidth}{\textheight}]{2-3}
+
+
+\section{Hilos con Java}
+
+\begin{lstlisting}
+
+//El programa esta creado en dos archivos de java, uno contiene a la clase 
+// a partir de la cual se crearan los hilos (clase Proceso) y el otro
+// contiene al metodo main y es donde se crearan las instancias de la clase
+// Proceso que a su vez hereda de la clase Thread y donde se utilizaran
+// los metodos correspondientes que fueron incorporados a esta clase para 
+// lograr que los hilos descargaran cada uno el contenido de su respectivo
+// URL y lo guardasen en un archivo, asi como lo imprimiesen en pantalla,
+//  esto ultimo como una forma de verificar el paralelismo de ejecucion en los 
+// hilos
+package hilos; // Se declara el paquete del cual es parte este codigo y asi
+// funcione de forma modular con cualquier otro programa dentro del mismo archivo
+// y que tenga declarada la pertenencia al mismo paquete 
+
+/**
+ *
+ * @author Luis
+ */
+public class Hilos //La clase se declara como publica porque contiene al main
+{
+    public static void main(String[] args) 
+    {
+        //Se crean tres objetos Proceso que al heredar de la clase Thread
+        // basicamente lo que hace el constructor es crear un objeto Thread
+        // respectivo asociado a la instancia de la clase Proceso
+        Proceso hilo1 = new Proceso("Hilo 1");
+        Proceso hilo2 = new Proceso("Hilo 2");
+        Proceso hilo3 = new Proceso("Hilo 3");
+        // Se le asocia una URL a cada objeto hilo con el metodo asociaProcesoURL
+        hilo1.asociaProcesoURL("http://jarroba.com/");
+        hilo2.asociaProcesoURL("http://codigoprogramacion.com/");
+        hilo3.asociaProcesoURL("http://www.chuidiang.com/");
+        // Se le asocia a cada hilo un nombre de archivo  que  en caso de 
+        // no existir creara,donde depositara la descarga de la pagina respectiva asociada a este
+        hilo1.asociaArchivo("Hilo1.txt");
+        hilo2.asociaArchivo("Hilo2.txt");
+        hilo3.asociaArchivo("hilo3.txt");
+        // Se utiliza el metodo start() para inicializar cada hilo
+        // y que ejecuten su metodo run()
+        hilo1.start();
+        hilo2.start();
+        hilo3.start();
+    }
+}
+
+
+//*********************************************************************************************************//
+
+
+package hilos;
+
+import java.io.BufferedInputStream; 
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLConnection;
+import java.io.File;
+import java.io.FileWriter;
+
+class Proceso extends Thread 
+{
+    //Se declaran variables que serviran fuera de los metodos
+    //Porque estas actuaran en toda la clase 
+    // Y si se quiere especificar su uso en cada metodo referido a una instancia
+    // se utiliza el operador this
+    String msg;// Variable msg para guardar un nombre del Hilo
+    URL url2;//Variable para asociar a cada instancia de la clase
+    // Proceso un objeto de la clase URL
+    Thread t; // Variable para la creacion del hilo correspondiente
+    //Y para poder ejecutar el metodo run en forma de hilo
+    File f2; // Manejador del archivo
+    //Metodo constructor
+    Proceso(String msg)
+    {
+        this.msg=msg;
+        t= new Thread(this.msg);
+    }
+    //Metodo para asociar al hilo con un objeto URL
+    //Con el cual se pudiesen efectuar las operaciones de descarga
+    // del contenido y la asi como la impresion en pantalla y guardado
+    // de este contenido en archivos
+    public void asociaProcesoURL(String url)
+    {
+        try {
+            URL url2 = new URL(url);
+            this.url2=url2;
+        } catch (MalformedURLException ex) {
+            ex.printStackTrace();
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }
+    }
+    
+    //Metodo para crear un archivo asociado al hilo donde 
+    // descargara la informacion
+    public void asociaArchivo(String nombre)
+    {
+        this.f2 = new File(nombre);
+         if(!f2.exists())
+        {
+            //Si no existe el programa intentara crearlo, como esto puede arrojar una excepcion se utiliza la sentencia try catch
+            try
+            {
+                this.f2.createNewFile();
+            }
+            catch(IOException io)
+            {System.out.println("Error: " + io.toString());}   
+        }
+    }
+    //Metodo run donde se efectua tanto la operacion en manejo, escritura
+    // Y guardado del archivo asi como la operacion de descarga con la clase 
+    //URL e impresion en pantalla
+    @Override
+    public void run()
+    {
+        try
+        {
+            URLConnection urlc = this.url2.openConnection();
+ 
+            BufferedInputStream buffer = new BufferedInputStream(urlc.getInputStream());
+            FileWriter fw = new FileWriter(this.f2);
+ 
+            StringBuilder builder = new StringBuilder();
+            int byteRead;
+            //Lo que realmente esta ejecutando cada hilo
+            // o mas bien el 'proceso fuerte' que esta realizando cada hilo
+            // se realiza en este ciclo while(la concatenacion de lo descargado
+            // al objeto StringBuilder y la concatenacion de cadenas al archivo)
+            while ((byteRead = buffer.read()) != -1)
+            {
+                builder.append((char) byteRead);
+                fw.append((char) byteRead);                
+            }
+            fw.append("\n The size of the web page is " + builder.length() + " bytes.");
+            
+            fw.close();
+            buffer.close();
+            
+            System.out.println(builder.toString());
+            System.out.println("\n \n The size of the web page is " + builder.length() + " bytes. \n \n");
+            System.out.println("***************************************************************"
+                    + "****************************************************************************************** \n \n \n \n \n");
+ 
+        } catch (MalformedURLException ex) {
+            ex.printStackTrace();
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }
+    }   
+}
+\end{lstlisting}
+
+\includegraphics[max size={\textwidth}{\textheight}]{1}
+\includegraphics[max size={\textwidth}{\textheight}]{2}
+De aquí se puede ver que el primer hilo es el último en ejecutarse
+
+\includegraphics[max size={\textwidth}{\textheight}]{3}
+El hilo tres se termina de ejecutar en segundo lugar
+
+\includegraphics[max size={\textwidth}{\textheight}]{4}
+El primer hilo en terminar de ejecutarse se puede ver que es el segundo
+
+
+Las capturas de los archivos comprueban lo anterior:
+\includegraphics[max size={\textwidth}{\textheight}]{5}
+\includegraphics[max size={\textwidth}{\textheight}]{6}
+\includegraphics[max size={\textwidth}{\textheight}]{7}
+
+Con el orden que se obtiene del fin de ejecución de los hilos, se puede deducir fácilmente que son procesos en paralelo, ya que este orden solo se podría obtener si los procesos se estuviesen ejecutando en paralelo (2,3,1)
+
+
+\end{document}
